@@ -18,7 +18,7 @@ void loop() {
     Serial.println(count);
     toggle = toggle_state(toggle); // toggle LED value.
     digitalWrite(PIN_LED, toggle); // update LED status.
-    delay(100); // wait for 1,000 milliseconds
+    delay(100); // wait for 100 milliseconds
   }
   toggle = 1;
   digitalWrite(PIN_LED, toggle);
